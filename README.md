@@ -11,14 +11,14 @@
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-# GIT Repository Template
+# Git Repository Template
 
 <details>
     <summary>Table of Contents</summary>
     <ol>
-        <li><a href="#about-the-project"> 📝 About The Project</a></li>
+        <li><a href="#about-the-project"> ℹ️ About The Project</a></li>
         <li><a href="#project-status"> 🚧 Project Status</a></li>
-        <li><a href="#technologies"> 🔰 Technologies</a></li>
+        <li><a href="#technologies"> ✅ Technologies</a></li>
         <li><a href="#prerequisites"> 💻 Prerequisites</a></li>
         <li><a href="#installation"> 🚀 Installation</a></li>
         <li><a href="#step-by-step"> 🚶 Step by step</a></li>
@@ -26,14 +26,17 @@
             <li><a href="#create-local-repository">Create a local repository</a></li>
             <li><a href="#create-remote-repository">Create a remote repository</a></li>
         </ul>
-        <li><a href="#license"> 📝 License</a></li>
+        <li><a href="#license"> ⚖️ License</a></li>
     </ol>
 </details>
+
+<!-- Link to top -->
+<p align="right"><a href="#top">back to top</a></p>
 
 <!-- Used for Table of Contents link -->
 <div id="about-the-project"></div>
 
-## 📝 About The Project
+## ℹ️ About The Project
 
 Repository template to be used as a base for other projects
 
@@ -45,7 +48,8 @@ Repository template to be used as a base for other projects
 
 ## 🚧 Project Status
 
-**v0.1.0**  Initial release. [Full Changelog](https://github.com/Fonze81/GIT-repository-template/commits/0.1.0)
+> **Version 0.1.0**<br>
+> Initial release. See [Full Changelog](https://github.com/Fonze81/GIT-repository-template/commits/0.1.0)
 
 <!-- Link to top -->
 <p align="right"><a href="#top">back to top</a></p>
@@ -53,7 +57,7 @@ Repository template to be used as a base for other projects
 <!-- Used for Table of Contents link -->
 <div id="technologies"></div>
 
-## 🔰 Technologies
+## ✅ Technologies
 
 The following tools were used in building the project.
 
@@ -70,9 +74,8 @@ The following tools were used in building the project.
 
 Before starting, you will need to have the following tools installed on your machine:
 
-![Git](https://img.shields.io/static/v1?label=Git&message=^v2.33.1.windows.1&color=blue&style=flat-square&logo=git)
-
-![GitHub](https://img.shields.io/static/v1?label=GitHub%20Desktop&message=^v2.9.14%20(x64)&color=blue&style=flat-square&logo=github)
+![Git](https://img.shields.io/static/v1?label=Git&message=^v2.33.1.windows.1&color=blue&style=flat&logo=git)
+![GitHub](https://img.shields.io/static/v1?label=GitHub%20Desktop&message=^v2.9.14%20x64&color=blue&style=flat&logo=github)
 
 <!-- Link to top -->
 <p align="right"><a href="#top">back to top</a></p>
@@ -82,7 +85,7 @@ Before starting, you will need to have the following tools installed on your mac
 
 ## 🚀 Installation
 
-Clone the Github remote repository by running the command
+Clone the GitHub remote repository by running the command
 
 ```bash
 git clone https://github.com/Fonze81/GIT-repository-template
@@ -102,6 +105,7 @@ git clone https://github.com/Fonze81/GIT-repository-template
 ### Create a local repository
 
 <details>
+<br>
 
 Open a terminal window and run the command `git --version` to verify that it is installed.
 If an error is returned, there are a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to https://git-scm.com/download/win and the download will start automatically.
@@ -161,13 +165,15 @@ git branch -M main
 ### Create a remote repository
 
 <details>
+<br>
 
 Go to [Github](https://github.com/) and create a new remote repository.
 Download [GitHub Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32) and install it
 
-Open the Github Desktop software, log in, select your local repository (File > Add local repository...) and then upload it to the remote repository (Repository > Push).
+Open the GitHub Desktop software, log in, select your local repository (File > Add local repository...) and then upload it to the remote repository (Repository > Push).
 
-> ⚠️ Cannot upload directly from Git due to token authentication requirement. See [token authentication requirements for git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
+> **Git is not allowed to push to GitHub remote repository**<br>
+> See [token authentication requirements for git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 
 <!-- Link to top -->
 <!-- <p align="right"><a href="#top">back to top</a></p> -->
@@ -180,7 +186,7 @@ Open the Github Desktop software, log in, select your local repository (File > A
 <!-- Used for Table of Contents link -->
 <div id="license"></div>
 
-## 📝 License
+## ⚖️ License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
