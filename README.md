@@ -7,7 +7,7 @@
 ![GitHub](https://img.shields.io/github/last-commit/Fonze81/GIT-repository-template?style=flat&logo=github)
 ![GitHub](https://img.shields.io/github/commit-activity/m/Fonze81/GIT-repository-template?style=flat&logo=github)
 ![GitHub](https://img.shields.io/github/repo-size/Fonze81/GIT-repository-template?style=flat&logo=github)
-![GitHub](https://img.shields.io/github/license/Fonze81/GIT-repository-template?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/Fonze81/GIT-repository-template?style=flat)
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
